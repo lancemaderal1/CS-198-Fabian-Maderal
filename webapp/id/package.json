@@ -1,0 +1,47 @@
+{
+  "name": "id",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --port 5050",
+    "typecheck": "vue-tsc --noEmit",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@dafcoe/vue-notification": "^0.1.6",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.1.3",
+    "bootstrap-vue-3": "^0.1.13",
+    "crypto-js": "^4.1.1",
+    "firebase": "^9.6.10",
+    "node-forge": "^1.3.1",
+    "node-modules": "^1.0.1",
+    "uuid": "^8.3.2",
+    "vee-validate": "^4.5.10",
+    "vue": "^3.2.31",
+    "vue-crypt": "^1.0.0",
+    "vue-cryptojs": "^2.2.1",
+    "vue-router": "^4.0.14",
+    "vue-toast-notification": "3.0",
+    "vuefire": "^2.2.5"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@types/node": "^16.11.25",
+    "@vitejs/plugin-vue": "^2.2.2",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^10.0.0",
+    "@vue/tsconfig": "^0.1.3",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "prettier": "^2.5.1",
+    "typescript": "~4.5.5",
+    "vite": "^2.8.4",
+    "vue-tsc": "^0.31.4"
+  }
+}
